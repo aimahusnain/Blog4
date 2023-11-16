@@ -18,11 +18,8 @@ const ButtonAction: FC<ButtonActionProps> = ({id}) => {
 
     onError: (error) => {
       console.error(error);
-<<<<<<< HEAD
       router.push('/');
       router.refresh()
-=======
->>>>>>> 0c699b4810c5fad5ce3ae20ec73c80ca1611e220
     },
     onSuccess: () => {
       router.push('/');
