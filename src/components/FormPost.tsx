@@ -8,7 +8,6 @@ import { FC } from "react";
 import { SubmitHandler, useForm } from "react-hook-form";
 
 interface FormPostProps {
-<<<<<<< HEAD
   submit: SubmitHandler<FormInputPost>;
   isEditing: boolean;
   initialValue?: FormInputPost;
@@ -24,19 +23,6 @@ const FormPost: FC<FormPostProps> = ({
   const { register, handleSubmit } = useForm<FormInputPost>({
     defaultValues: initialValue,
   });
-=======
-  submit: SubmitHandler<FormInputPost>
-  isEditing: boolean
-  initialValue?: FormInputPost
-}
-
-const FormPost: FC<FormPostProps> = ({ submit, isEditing, initialValue }) => {
-    const {register,handleSubmit} = useForm<FormInputPost>({
-      defaultValues: initialValue,
-    });
-    
-    // fetch list tags
->>>>>>> 0c699b4810c5fad5ce3ae20ec73c80ca1611e220
 
   // fetch list tags
 
